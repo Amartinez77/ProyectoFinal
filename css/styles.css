@@ -1,0 +1,47 @@
+body {
+  /* background-image: url(../images/uncharted-4-a-thief-s-end-31488-1920x1080.jpg); */
+}
+
+.seccion {
+  display: block;
+}
+
+.heroImage {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-image: url("../images/uncharted-4-a-thief-s-end-31488-1920x1080.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.heroImage h1 {
+  font-size: 2.25rem;
+}
+
+.heroImage p {
+  font-size: 1.15rem;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .heroImage {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  /* header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1,
+  header.masthead .h1 {
+    font-size: 3rem;
+  } */
+}
+@media (min-width: 1200px) {
+  /* header.masthead h1,
+  header.masthead .h1 {
+    font-size: 3.5rem;
+  } */
+}
