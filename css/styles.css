@@ -145,3 +145,80 @@ mark {
     color: #fff !important;
   }
 }
+
+/*                                             estilos historia.html                                                    */
+
+.heroImage2 {
+  padding-top: 18rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-image: url("../images/historiaH.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.heroImage2 h1 {
+  font-size: 2.85rem;
+  color: #f4623a;
+}
+
+.heroImage2 p {
+  font-size: 1.5rem;
+  color: #f4623a;
+}
+
+#mainNav {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.fixed-top {
+  position: inherit;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  color: #212529;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.75rem 0;
+}
+
+.links ul li a {
+  color: black;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  .fixed-top {
+    position: absolute;
+  }
+
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 1rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+
+  .text-dark {
+    color: #fff !important;
+  }
+}
