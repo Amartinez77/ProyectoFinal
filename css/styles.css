@@ -57,6 +57,11 @@ mark {
   color: #fff;
 }
 
+.fondo a:hover {
+  opacity: 0.6;
+  transition-duration: 500ms;
+}
+
 @media (min-width: 992px) {
   .heroImage {
     height: 100vh;
