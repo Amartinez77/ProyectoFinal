@@ -183,6 +183,8 @@ mark {
   color: black;
 }
 
+/*        mediasq  para el logo                */
+
 @media (min-width: 279px) {
   #mainNav .navbar-brand {
     width: 120px;
@@ -204,6 +206,8 @@ mark {
     height: 100%;
   }
 }
+
+/*                    fin mediaq para logo                  */
 
 @media (min-width: 992px) {
   #mainNav {
