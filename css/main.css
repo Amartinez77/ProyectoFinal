@@ -105,3 +105,35 @@ p {
 .fondo a:hover {
   opacity: 0.6;
   transition-duration: 500ms; }
+
+.heroImage3 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-image: url("../images/personajesCentro.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+  .heroImage3 h1 {
+    font-size: 4rem;
+    color: #f4623a; }
+  .heroImage3 p {
+    font-size: textSm;
+    color: #f4623a;
+    color: #fff; }
+    .heroImage3 p mark {
+      background-color: #f4623a;
+      opacity: 0.7;
+      color: #fff; }
+  @media (min-width: 992px) {
+    .heroImage3 {
+      height: 100vh;
+      min-height: 40rem;
+      padding-top: 4.5rem;
+      padding-bottom: 0; } }
+
+.bgOrange {
+  background-color: #f4623a; }
+
+.page-section {
+  padding: 8rem 0; }
