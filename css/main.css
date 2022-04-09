@@ -102,6 +102,38 @@ p {
 .page-section {
   padding: 8rem 0; }
 
+.heroImage4 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-image: url("../images/nathan_drake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+  .heroImage4 h1 {
+    font-size: 4rem;
+    color: #f4623a; }
+  .heroImage4 p {
+    font-size: textSm;
+    color: #f4623a;
+    color: #fff; }
+    .heroImage4 p mark {
+      background-color: #f4623a;
+      opacity: 0.7;
+      color: #fff; }
+  @media (min-width: 992px) {
+    .heroImage4 {
+      height: 100vh;
+      min-height: 40rem;
+      padding-top: 4.5rem;
+      padding-bottom: 0; } }
+
+.bgOrange {
+  background-color: #f4623a; }
+
+.page-section {
+  padding: 8rem 0; }
+
 .fondo a:hover {
   opacity: 0.6;
   transition-duration: 500ms; }
