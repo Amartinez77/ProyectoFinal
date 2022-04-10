@@ -102,6 +102,38 @@ p {
 .page-section {
   padding: 8rem 0; }
 
+.heroImage5 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-image: url("../images/uncharted_colabora.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+  .heroImage5 h1 {
+    font-size: 4rem;
+    color: #f4623a; }
+  .heroImage5 p {
+    font-size: textSm;
+    color: #f4623a;
+    color: #fff; }
+    .heroImage5 p mark {
+      background-color: #f4623a;
+      opacity: 0.7;
+      color: #fff; }
+  @media (min-width: 992px) {
+    .heroImage5 {
+      height: 100vh;
+      min-height: 40rem;
+      padding-top: 4.5rem;
+      padding-bottom: 0; } }
+
+.bgOrange {
+  background-color: #f4623a; }
+
+.page-section {
+  padding: 8rem 0; }
+
 .heroImage4 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
