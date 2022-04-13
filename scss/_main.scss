@@ -2,3 +2,14 @@
   opacity: 0.6;
   transition-duration: 500ms;
 }
+
+// main index.html
+
+#mainInd {
+  img {
+    border-radius: map-get($circulo, circ2);
+    box-shadow: map-get($map: $shadow, $key: "sh2");
+  }
+}
+
+// main personajes.html

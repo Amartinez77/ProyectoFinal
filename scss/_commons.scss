@@ -11,3 +11,27 @@ $bgNaranja: #f4623a;
   height: 2px;
   padding: 0;
 }
+
+// map
+
+$circulo: (
+  "circ1": 25%,
+  "circ2": 50%,
+  "circ3": 75%,
+);
+
+$shadow: (
+  "sh1": 10px 10px 5px 0px rgba(0, 0, 0, 0.75),
+  "sh2": 7px 11px 31px -1px rgba(0, 0, 0, 0.75),
+);
+// mixin
+@mixin w-h($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin textZLC($size, $line, $color) {
+  font-size: $size;
+  line-height: $line;
+  color: $color;
+}
