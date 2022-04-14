@@ -85,7 +85,7 @@ p {
   background-attachment: scroll;
   background-size: cover; }
   .heroImage h1, .heroImage2 h1, .heroImage3 h1, .heroImage4 h1, .heroImage5 h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 1.2;
     color: #f4623a; }
   .heroImage p, .heroImage2 p, .heroImage3 p, .heroImage4 p, .heroImage5 p {
@@ -101,7 +101,11 @@ p {
       height: 100vh;
       min-height: 40rem;
       padding-top: 4.5rem;
-      padding-bottom: 0; } }
+      padding-bottom: 0; }
+      .heroImage h1, .heroImage2 h1, .heroImage3 h1, .heroImage4 h1, .heroImage5 h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+        color: #f4623a; } }
 
 .bgOrange {
   background-color: #f4623a; }
@@ -112,7 +116,7 @@ p {
 .heroImage2 {
   background-image: url("../images/historiaHero.webp"); }
   .heroImage2 h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 1.2;
     color: #f4623a; }
   .heroImage2 p {
@@ -128,7 +132,11 @@ p {
       height: 100vh;
       min-height: 40rem;
       padding-top: 4.5rem;
-      padding-bottom: 0; } }
+      padding-bottom: 0; }
+      .heroImage2 h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+        color: #f4623a; } }
 
 .bgOrange {
   background-color: #f4623a; }
@@ -139,7 +147,7 @@ p {
 .heroImage3 {
   background-image: url("../images/personajesCentro.jpg"); }
   .heroImage3 h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 1.2;
     color: #f4623a; }
   .heroImage3 p {
@@ -155,7 +163,11 @@ p {
       height: 100vh;
       min-height: 40rem;
       padding-top: 4.5rem;
-      padding-bottom: 0; } }
+      padding-bottom: 0; }
+      .heroImage3 h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+        color: #f4623a; } }
 
 .bgOrange {
   background-color: #f4623a; }
@@ -166,7 +178,7 @@ p {
 .heroImage4 {
   background-image: url("../images/nathan_drake.jpg"); }
   .heroImage4 h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 1.2;
     color: #f4623a; }
   .heroImage4 p {
@@ -182,7 +194,11 @@ p {
       height: 100vh;
       min-height: 40rem;
       padding-top: 4.5rem;
-      padding-bottom: 0; } }
+      padding-bottom: 0; }
+      .heroImage4 h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+        color: #f4623a; } }
 
 .bgOrange {
   background-color: #f4623a; }
@@ -193,7 +209,7 @@ p {
 .heroImage5 {
   background-image: url("../images/uncharted_colabora.webp"); }
   .heroImage5 h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 1.2;
     color: #f4623a; }
   .heroImage5 p {
@@ -209,7 +225,11 @@ p {
       height: 100vh;
       min-height: 40rem;
       padding-top: 4.5rem;
-      padding-bottom: 0; } }
+      padding-bottom: 0; }
+      .heroImage5 h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+        color: #f4623a; } }
 
 .bgOrange {
   background-color: #f4623a; }

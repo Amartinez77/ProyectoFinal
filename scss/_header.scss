@@ -8,7 +8,7 @@
   background-size: cover;
 
   h1 {
-    @include textZLC($textXl, 1.2, $bgNaranja);
+    @include textZLC($textMd, 1.2, $bgNaranja);
   }
 
   p {
@@ -27,6 +27,9 @@
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+    h1 {
+      @include textZLC($textXl, 1.2, $bgNaranja);
+    }
   }
 }
 
@@ -44,7 +47,7 @@
   @extend .heroImage;
   background-image: url("../images/historiaHero.webp");
   h1 {
-    @include textZLC($textXl, 1.2, $bgNaranja);
+    @include textZLC($textMd, 1.2, $bgNaranja);
   }
 
   p {
@@ -63,6 +66,9 @@
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+    h1 {
+      @include textZLC($textXl, 1.2, $bgNaranja);
+    }
   }
 }
 
@@ -81,7 +87,7 @@
   background-image: url("../images/personajesCentro.jpg");
 
   h1 {
-    @include textZLC($textXl, 1.2, $bgNaranja);
+    @include textZLC($textMd, 1.2, $bgNaranja);
   }
 
   p {
@@ -100,6 +106,9 @@
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+    h1 {
+      @include textZLC($textXl, 1.2, $bgNaranja);
+    }
   }
 }
 
@@ -118,7 +127,7 @@
   background-image: url("../images/nathan_drake.jpg");
 
   h1 {
-    @include textZLC($textXl, 1.2, $bgNaranja);
+    @include textZLC($textMd, 1.2, $bgNaranja);
   }
 
   p {
@@ -137,6 +146,9 @@
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+    h1 {
+      @include textZLC($textXl, 1.2, $bgNaranja);
+    }
   }
 }
 
@@ -155,7 +167,7 @@
   background-image: url("../images/uncharted_colabora.webp");
 
   h1 {
-    @include textZLC($textXl, 1.2, $bgNaranja);
+    @include textZLC($textMd, 1.2, $bgNaranja);
   }
 
   p {
@@ -174,6 +186,9 @@
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+    h1 {
+      @include textZLC($textXl, 1.2, $bgNaranja);
+    }
   }
 }
 
