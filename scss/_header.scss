@@ -1,7 +1,7 @@
 .heroImage {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background-image: url("../images/uncharted-4-a-thief-s-end-31488-1920x1080.jpg");
+  background-image: url("../images/indexHero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -42,7 +42,7 @@
 
 .heroImage2 {
   @extend .heroImage;
-  background-image: url("../images/historiaH.webp");
+  background-image: url("../images/historiaHero.webp");
   h1 {
     @include textZLC($textXl, 1.2, $bgNaranja);
   }
