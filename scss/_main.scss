@@ -1,5 +1,6 @@
 .fondo a:hover {
-  opacity: 0.6;
+  opacity: 0.5;
+  background-color: $bgNaranja;
   transition-duration: 500ms;
 }
 
@@ -10,6 +11,68 @@
     border-radius: map-get($circulo, circ2);
     box-shadow: map-get($map: $shadow, $key: "sh2");
   }
+  h3 {
+    color: $bgNaranja;
+  }
+}
+
+// main historia.html
+
+#mainH {
+  font-weight: bold;
+}
+
+#mainH2 {
+  @media (min-width: 279px) {
+    p {
+      font-size: $textSm;
+    }
+  }
 }
 
 // main personajes.html
+
+#mainP {
+  @media (min-width: 279px) {
+    div {
+      img {
+        align-items: center;
+      }
+    }
+  }
+}
+#mainP2 {
+  @media (min-width: 279px) {
+    .card {
+      align-items: center;
+      img {
+        width: 75%;
+        text-align: center;
+      }
+    }
+    .card-body {
+      .linea {
+        color: $bgNaranja;
+        border-top: 2px solid;
+        width: 50%;
+        margin: auto;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+#mainP3 {
+  @extend #mainP2;
+}
+
+// main novedades.html
+
+#mainN2 {
+  img {
+    width: $imgExt;
+  }
+  .lineaOrange {
+    @include lineaOrange(100%, 2px, 20px);
+  }
+}

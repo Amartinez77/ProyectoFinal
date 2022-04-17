@@ -20,6 +20,16 @@ p {
   height: 2px;
   padding: 0; }
 
+.lineaOrange {
+  color: #f4623a;
+  border-top: 2px solid;
+  width: 50%;
+  margin: auto;
+  opacity: 1; }
+
+.activo {
+  color: #f4623a !important; }
+
 @keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -238,9 +248,47 @@ p {
   padding: 8rem 0; }
 
 .fondo a:hover {
-  opacity: 0.6;
+  opacity: 0.5;
+  background-color: #f4623a;
   transition-duration: 500ms; }
 
 #mainInd img {
   border-radius: 50%;
   box-shadow: 7px 11px 31px -1px rgba(0, 0, 0, 0.75); }
+
+#mainInd h3 {
+  color: #f4623a; }
+
+#mainH {
+  font-weight: bold; }
+
+@media (min-width: 279px) {
+  #mainH2 p {
+    font-size: 1rem; } }
+
+@media (min-width: 279px) {
+  #mainP div img {
+    align-items: center; } }
+
+@media (min-width: 279px) {
+  #mainP2 .card, #mainP3 .card {
+    align-items: center; }
+    #mainP2 .card img, #mainP3 .card img {
+      width: 75%;
+      text-align: center; }
+  #mainP2 .card-body .linea, #mainP3 .card-body .linea {
+    color: #f4623a;
+    border-top: 2px solid;
+    width: 50%;
+    margin: auto;
+    opacity: 1; } }
+
+#mainN2 img {
+  width: -webkit-fill-available; }
+
+#mainN2 .lineaOrange {
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  color: #f4623a;
+  border-top: 2px solid; }

@@ -1,8 +1,8 @@
 // variables globales
 $bgNaranja: #f4623a;
 
+$imgExt: -webkit-fill-available;
 // linea de uso comun
-
 .linea {
   margin: 1rem 0;
   color: inherit;
@@ -10,6 +10,18 @@ $bgNaranja: #f4623a;
   border-top: 1px solid;
   height: 2px;
   padding: 0;
+}
+
+.lineaOrange {
+  color: $bgNaranja;
+  border-top: 2px solid;
+  width: 50%;
+  margin: auto;
+  opacity: 1;
+}
+
+.activo {
+  color: #f4623a !important;
 }
 
 // map
@@ -34,4 +46,12 @@ $shadow: (
   font-size: $size;
   line-height: $line;
   color: $color;
+}
+
+@mixin lineaOrange($width, $marginT, $marginB) {
+  width: $width;
+  margin-top: $marginT;
+  margin-bottom: $marginB;
+  color: #f4623a;
+  border-top: 2px solid;
 }
