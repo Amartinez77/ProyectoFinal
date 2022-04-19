@@ -40,7 +40,7 @@
     <!--                    Nav                     -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <section class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="../index.html"><img src="../images/dibujo-12.svg"
+            <a class="navbar-brand" href="../index.html"><img src="../images/logoPagina.svg"
                     alt="Logo de la página, nombre uncharted game fans" height="100" width="330"></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -94,7 +94,7 @@
 
         <!--  seccion naranja del sitio          -->
 
-        <section class="page-section bgOrange" id="about">
+        <section class="page-section bgOrange" id="mainC">
             <article class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
@@ -120,7 +120,7 @@
         <!--     fin seccion naranja         -->
 
         <!--             productos                    -->
-        <section class="container">
+        <section class="container" id="mainC2">
             <h2>Los mejores Productos de Uncharted!</h2>
             <div class="linea"></div>
             <section class="row row-cols-1 row-cols-md-2 row-cols-lg-4 mb-3 text-center">
@@ -292,8 +292,10 @@
 
         <!--          fin productos                 -->
 
+        <!-- formulario -->
 
-        <section class="container">
+        <section class="container" id="mainC3">
+            <h2>Dejanos un comentario</h2>
 
             <section class="row bgNegro">
 
@@ -337,36 +339,17 @@
                         <div class="col-12">
 
 
-                            <fieldset class="row mb-3">
-                                <legend class="col-form-label col-sm-2 pt-0 text-light">Seleccione</legend>
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
-                                            value="option1" checked>
-                                        <label class="form-check-label text-light" for="gridRadios1">
-                                            Mesa para 2
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                            value="option2">
-                                        <label class="form-check-label text-light" for="gridRadios2">
-                                            Mesa para 4
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
-                                            value="option3">
-                                        <label class="form-check-label text-light" for="gridRadios3">
-                                            + 6 personas
-                                        </label>
-                                    </div>
+                            <fieldset>
+
+                                <div class="col-md-12 ">
+                                    <label for="exampleFormControlTextarea1" class="form-label text-light">Deje su
+                                        comentario</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                                        placeholder="Escriba un cometario" rows="3"></textarea>
                                 </div>
+
                             </fieldset>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label text-light" for="gridCheck">Confirma reserva </label>
-                            </div>
+
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Enviar</button>
@@ -375,6 +358,9 @@
                     </form>
 
                 </article>
+                <!-- fin formulario -->
+
+                <!-- mapa -->
 
                 <article class="col-md-6 my-4">
                     <iframe
@@ -386,15 +372,7 @@
 
             </section>
 
-            <div>
-
-            </div>
-
         </section>
-
-
-
-
 
     </main>
 
@@ -406,7 +384,6 @@
     <div class="text-center">
         <a href=""><i class="bi-arrow-up-square-fill fs-3"></i></a>
     </div>
-
 
 
     <!--            footer                    -->

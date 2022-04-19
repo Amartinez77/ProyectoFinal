@@ -9,6 +9,7 @@
 
   h1 {
     @include textZLC($textMd, 1.2, $bgNaranja);
+    text-shadow: $textS1;
   }
 
   p {
@@ -19,6 +20,7 @@
       background-color: $bgNaranja;
       opacity: 0.7;
       color: #fff;
+      font-size: 1.1rem;
     }
   }
 

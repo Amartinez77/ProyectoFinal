@@ -14,12 +14,23 @@
   h3 {
     color: $bgNaranja;
   }
+  p {
+    font-size: $textSm;
+  }
+}
+
+#mainInd2 {
+  p {
+    font-size: $textSm;
+  }
 }
 
 // main historia.html
 
 #mainH {
-  font-weight: bold;
+  p {
+    font-size: $textSm;
+  }
 }
 
 #mainH2 {
@@ -66,6 +77,10 @@
   @extend #mainP2;
 }
 
+#mainP4 {
+  @extend #mainInd2;
+}
+
 // main novedades.html
 
 #mainN2 {
@@ -75,4 +90,14 @@
   .lineaOrange {
     @include lineaOrange(100%, 2px, 20px);
   }
+}
+
+// main colabora.html
+
+#mainC {
+  @extend #mainInd2;
+}
+
+#mainC3 {
+  background-color: rgb(90, 73, 60);
 }
