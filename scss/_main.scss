@@ -53,11 +53,46 @@
   }
 }
 #mainP2 {
+  .verMas {
+    display: none;
+  }
+
+  .verMasOculto {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: 0.25s ease;
+  }
+
+  .verMas:checked ~ .verMasText .verMasOculto {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+
+  .verMas ~ .botonVerMas:before {
+    content: "Ver mas...";
+  }
+
+  .verMas:checked ~ .botonVerMas:before {
+    content: "Ver menos...";
+  }
+
+  .botonVerMas {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 0.5em;
+    color: #666;
+    font-size: 0.9em;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: 0.25em;
+  }
+
   @media (min-width: 279px) {
     .card {
       align-items: center;
       img {
-        width: 75%;
         text-align: center;
       }
     }
@@ -98,6 +133,20 @@
   @extend #mainInd2;
 }
 
+#mainC2 {
+  .lineaOrange {
+    @include lineaOrange(100%, 2px, 20px);
+  }
+  .btn-outline-primary {
+    color: black;
+    border-color: $bgNaranja;
+    &:hover {
+      background-color: $bgNaranja;
+      color: white;
+    }
+  }
+}
+
 #mainC3 {
-  background-color: rgb(90, 73, 60);
+  background-color: #8c7d58;
 }
