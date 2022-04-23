@@ -120,7 +120,7 @@
 
 #mainN2 {
   img {
-    width: $imgExt;
+    @include ajustarImagen;
   }
   .lineaOrange {
     @include lineaOrange(100%, 2px, 20px);

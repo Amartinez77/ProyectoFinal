@@ -41,12 +41,17 @@ p {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background: #543533;
+  background: linear-gradient(180deg, #543533 0%, #000000 80%);
   transition: background-color 0.2s ease;
   position: inherit; }
+  #mainNav .navbar-toggler {
+    background-color: azure; }
+    #mainNav .navbar-toggler:focus {
+      box-shadow: none; }
   #mainNav .navbar-brand {
     font-weight: 700;
-    color: #212529; }
+    color: white; }
     @media (min-width: 279px) {
       #mainNav .navbar-brand {
         width: 120px; }
@@ -62,14 +67,17 @@ p {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-weight: 700;
     font-size: 0.9rem;
-    padding: 0.75rem 0; }
-  #mainNav .links ul li a {
-    color: black; }
+    padding: 0.75rem 0;
+    color: white; }
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: gray;
+      transition: color 0.2s ease; }
   #mainNav .fixed-top {
     position: inherit; }
   @media (min-width: 992px) {
     #mainNav {
       box-shadow: none;
+      background: none;
       background-color: transparent;
       position: absolute; }
       #mainNav .navbar-brand {
@@ -321,7 +329,8 @@ p {
     opacity: 1; } }
 
 #mainN2 img {
-  width: -webkit-fill-available; }
+  width: -webkit-fill-available;
+  width: -moz-available; }
 
 #mainN2 .lineaOrange {
   width: 100%;
