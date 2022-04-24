@@ -1,0 +1,10 @@
+#foo404 {
+  position: inherit;
+  bottom: 0;
+  width: 100%;
+  @media (min-width: 768px) {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}

@@ -150,3 +150,89 @@
 #mainC3 {
   background-color: #8c7d58;
 }
+
+#main404 {
+  //   height: 100%;
+  background-color: darkkhaki;
+
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2px;
+    background-color: darkkhaki;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .svgError {
+    width: 100%;
+    height: 100%;
+  }
+  a {
+    p {
+      font-size: 1.2rem;
+      margin-top: 2px;
+    }
+  }
+
+  //   mediaq
+  @media (min-width: 480px) {
+    img {
+      width: 55%;
+      height: auto;
+    }
+    .svgError {
+      width: 55%;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+    }
+    img {
+      width: 90%;
+      height: auto;
+    }
+    .svgError {
+      width: 90%;
+      height: auto;
+    }
+    a {
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    h1 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    img {
+      width: 60%;
+      height: auto;
+    }
+    .svgError {
+      width: 60%;
+      height: auto;
+    }
+    a {
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+}

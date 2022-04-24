@@ -82,3 +82,89 @@
     }
   }
 }
+
+// navbar error404.html
+
+#nav404 {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+  background: rgba(84, 53, 51, 255);
+  background: linear-gradient(180deg, rgba(84, 53, 51, 255) 0%, #000000 80%);
+
+  transition: background-color 0.2s ease;
+  position: inherit;
+
+  .navbar-toggler {
+    background-color: azure;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .navbar-brand {
+    font-weight: 700;
+    color: white;
+    @media (min-width: 279px) {
+      width: 120px;
+
+      img {
+        @include w-h(100%, 100%);
+      }
+
+      @media (min-width: 428px) {
+        width: 280px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.75rem 0;
+    color: white;
+    &:hover {
+      color: gray;
+      transition: color 0.2s ease;
+    }
+  }
+
+  .fixed-top {
+    position: inherit;
+  }
+  // mediasq para navbar en 992px
+
+  @media (min-width: 992px) {
+    box-shadow: none;
+    background: none;
+    background-color: currentColor;
+    position: initial;
+
+    .navbar-brand {
+      color: rgba(255, 255, 255, 0.7);
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      color: rgba(255, 255, 255, 0.7);
+      padding: 0 1rem;
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .navbar-nav .nav-item:last-child .nav-link {
+      padding-right: 0;
+    }
+
+    .text-dark {
+      color: #fff !important;
+    }
+  }
+}

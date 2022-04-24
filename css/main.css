@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&family=Ubuntu:wght@400;500;700&display=swap");
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  height: 100vh; }
+
+html {
+  height: 100vh; }
 
 h1 {
   font-family: "roboto"; }
@@ -92,6 +96,61 @@ p {
       #mainNav .navbar-nav .nav-item:last-child .nav-link {
         padding-right: 0; }
       #mainNav .text-dark {
+        color: #fff !important; } }
+
+#nav404 {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background: #543533;
+  background: linear-gradient(180deg, #543533 0%, #000000 80%);
+  transition: background-color 0.2s ease;
+  position: inherit; }
+  #nav404 .navbar-toggler {
+    background-color: azure; }
+    #nav404 .navbar-toggler:focus {
+      box-shadow: none; }
+  #nav404 .navbar-brand {
+    font-weight: 700;
+    color: white; }
+    @media (min-width: 279px) {
+      #nav404 .navbar-brand {
+        width: 120px; }
+        #nav404 .navbar-brand img {
+          width: 100%;
+          height: 100%; } }
+  @media (min-width: 279px) and (min-width: 428px) {
+    #nav404 .navbar-brand {
+      width: 280px; }
+      #nav404 .navbar-brand img {
+        width: 100%;
+        height: 100%; } }
+  #nav404 .navbar-nav .nav-item .nav-link {
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.75rem 0;
+    color: white; }
+    #nav404 .navbar-nav .nav-item .nav-link:hover {
+      color: gray;
+      transition: color 0.2s ease; }
+  #nav404 .fixed-top {
+    position: inherit; }
+  @media (min-width: 992px) {
+    #nav404 {
+      box-shadow: none;
+      background: none;
+      background-color: currentColor;
+      position: initial; }
+      #nav404 .navbar-brand {
+        color: rgba(255, 255, 255, 0.7); }
+        #nav404 .navbar-brand:hover {
+          color: #fff; }
+      #nav404 .navbar-nav .nav-item .nav-link {
+        color: rgba(255, 255, 255, 0.7);
+        padding: 0 1rem; }
+        #nav404 .navbar-nav .nav-item .nav-link:hover {
+          color: #fff; }
+      #nav404 .navbar-nav .nav-item:last-child .nav-link {
+        padding-right: 0; }
+      #nav404 .text-dark {
         color: #fff !important; } }
 
 .heroImage, .heroImage2, .heroImage3, .heroImage4, .heroImage5 {
@@ -355,3 +414,67 @@ p {
 
 #mainC3 {
   background-color: #8c7d58; }
+
+#main404 {
+  background-color: darkkhaki; }
+  #main404 h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2px;
+    background-color: darkkhaki; }
+  #main404 h2 {
+    font-size: 1rem; }
+  #main404 img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px; }
+  #main404 .svgError {
+    width: 100%;
+    height: 100%; }
+  #main404 a p {
+    font-size: 1.2rem;
+    margin-top: 2px; }
+  @media (min-width: 480px) {
+    #main404 img {
+      width: 55%;
+      height: auto; }
+    #main404 .svgError {
+      width: 55%;
+      height: auto; } }
+  @media (min-width: 768px) {
+    #main404 h1 {
+      text-align: center;
+      font-size: 2rem; }
+    #main404 img {
+      width: 90%;
+      height: auto; }
+    #main404 .svgError {
+      width: 90%;
+      height: auto; }
+    #main404 a p {
+      font-size: 1.6rem; } }
+  @media (min-width: 992px) {
+    #main404 h1 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 20px; }
+    #main404 img {
+      width: 60%;
+      height: auto; }
+    #main404 .svgError {
+      width: 60%;
+      height: auto; }
+    #main404 a p {
+      font-size: 2rem; } }
+
+#foo404 {
+  position: inherit;
+  bottom: 0;
+  width: 100%; }
+  @media (min-width: 768px) {
+    #foo404 {
+      position: absolute;
+      bottom: 0;
+      width: 100%; } }
