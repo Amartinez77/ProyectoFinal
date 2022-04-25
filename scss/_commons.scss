@@ -63,3 +63,37 @@ $shadow: (
   width: -webkit-fill-available;
   width: -moz-available;
 }
+
+// boton ver mas
+
+.verMas {
+  display: none;
+
+  &:checked ~ .verMasText .verMasOculto {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+}
+.verMasOculto {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: 0.25s ease;
+}
+.verMas ~ .botonVerMas:before {
+  content: "Ver mas...";
+  &:checked ~ .botonVerMas:before {
+    content: "Ver menos...";
+  }
+}
+.botonVerMas {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 0.5em;
+  color: #666;
+  font-size: 0.9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: 0.25em;
+}

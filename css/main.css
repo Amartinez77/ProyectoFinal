@@ -34,6 +34,34 @@ p {
 .activo {
   color: #f4623a !important; }
 
+.verMas {
+  display: none; }
+  .verMas:checked ~ .verMasText .verMasOculto {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em; }
+
+.verMasOculto {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: 0.25s ease; }
+
+.verMas ~ .botonVerMas:before {
+  content: "Ver mas..."; }
+  .verMas ~ .botonVerMas:before:checked ~ .botonVerMas:before {
+    content: "Ver menos..."; }
+
+.botonVerMas {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 0.5em;
+  color: #666;
+  font-size: 0.9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: 0.25em; }
+
 @keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -344,36 +372,6 @@ p {
 @media (min-width: 279px) {
   #mainP div img {
     align-items: center; } }
-
-#mainP2 .verMas, #mainP3 .verMas {
-  display: none; }
-
-#mainP2 .verMasOculto, #mainP3 .verMasOculto {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: 0.25s ease; }
-
-#mainP2 .verMas:checked ~ .verMasText .verMasOculto, #mainP3 .verMas:checked ~ .verMasText .verMasOculto {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em; }
-
-#mainP2 .verMas ~ .botonVerMas:before, #mainP3 .verMas ~ .botonVerMas:before {
-  content: "Ver mas..."; }
-
-#mainP2 .verMas:checked ~ .botonVerMas:before, #mainP3 .verMas:checked ~ .botonVerMas:before {
-  content: "Ver menos..."; }
-
-#mainP2 .botonVerMas, #mainP3 .botonVerMas {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 0.5em;
-  color: #666;
-  font-size: 0.9em;
-  line-height: 2;
-  border: 1px solid #ddd;
-  border-radius: 0.25em; }
 
 @media (min-width: 279px) {
   #mainP2 .card, #mainP3 .card {

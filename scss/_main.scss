@@ -53,42 +53,6 @@
   }
 }
 #mainP2 {
-  .verMas {
-    display: none;
-  }
-
-  .verMasOculto {
-    opacity: 0;
-    max-height: 0;
-    font-size: 0;
-    transition: 0.25s ease;
-  }
-
-  .verMas:checked ~ .verMasText .verMasOculto {
-    opacity: 1;
-    font-size: inherit;
-    max-height: 999em;
-  }
-
-  .verMas ~ .botonVerMas:before {
-    content: "Ver mas...";
-  }
-
-  .verMas:checked ~ .botonVerMas:before {
-    content: "Ver menos...";
-  }
-
-  .botonVerMas {
-    cursor: pointer;
-    display: inline-block;
-    padding: 0 0.5em;
-    color: #666;
-    font-size: 0.9em;
-    line-height: 2;
-    border: 1px solid #ddd;
-    border-radius: 0.25em;
-  }
-
   @media (min-width: 279px) {
     .card {
       align-items: center;
