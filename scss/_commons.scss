@@ -1,5 +1,6 @@
 // variables globales
 $bgNaranja: #f4623a;
+$bgNaranja2: #dea057;
 
 // variables text shadow
 
@@ -38,6 +39,7 @@ $circulo: (
 $shadow: (
   "sh1": 10px 10px 5px 0px rgba(0, 0, 0, 0.75),
   "sh2": 7px 11px 31px -1px rgba(0, 0, 0, 0.75),
+  "sh3": 1px 2px 4px rgba(255, 255, 255, 0.52),
 );
 // mixin
 @mixin w-h($width, $height) {
@@ -83,9 +85,9 @@ $shadow: (
 }
 .verMas ~ .botonVerMas:before {
   content: "Ver mas...";
-  &:checked ~ .botonVerMas:before {
-    content: "Ver menos...";
-  }
+}
+.verMas:checked ~ .botonVerMas:before {
+  content: "Ver menos...";
 }
 .botonVerMas {
   cursor: pointer;

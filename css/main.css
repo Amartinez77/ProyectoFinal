@@ -49,8 +49,9 @@ p {
 
 .verMas ~ .botonVerMas:before {
   content: "Ver mas..."; }
-  .verMas ~ .botonVerMas:before:checked ~ .botonVerMas:before {
-    content: "Ver menos..."; }
+
+.verMas:checked ~ .botonVerMas:before {
+  content: "Ver menos..."; }
 
 .botonVerMas {
   cursor: pointer;
@@ -118,7 +119,9 @@ p {
           color: #fff; }
       #mainNav .navbar-nav .nav-item .nav-link {
         color: rgba(255, 255, 255, 0.7);
-        padding: 0 1rem; }
+        padding: 0 1rem;
+        text-shadow: 1px 2px 4px rgba(255, 255, 255, 0.52);
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
         #mainNav .navbar-nav .nav-item .nav-link:hover {
           color: #fff; }
       #mainNav .navbar-nav .nav-item:last-child .nav-link {
@@ -215,7 +218,7 @@ p {
         color: #f4623a; } }
 
 .bgOrange {
-  background-color: #f4623a; }
+  background-color: #dea057; }
 
 .page-section {
   padding: 8rem 0; }
@@ -246,7 +249,7 @@ p {
         color: #f4623a; } }
 
 .bgOrange {
-  background-color: #f4623a; }
+  background-color: #dea057; }
 
 .page-section {
   padding: 8rem 0; }
@@ -277,7 +280,7 @@ p {
         color: #f4623a; } }
 
 .bgOrange {
-  background-color: #f4623a; }
+  background-color: #dea057; }
 
 .page-section {
   padding: 8rem 0; }
@@ -308,7 +311,7 @@ p {
         color: #f4623a; } }
 
 .bgOrange {
-  background-color: #f4623a; }
+  background-color: #dea057; }
 
 .page-section {
   padding: 8rem 0; }
@@ -339,7 +342,7 @@ p {
         color: #f4623a; } }
 
 .bgOrange {
-  background-color: #f4623a; }
+  background-color: #dea057; }
 
 .page-section {
   padding: 8rem 0; }
@@ -408,7 +411,8 @@ p {
   border-color: #f4623a; }
   #mainC2 .btn-outline-primary:hover {
     background-color: #f4623a;
-    color: white; }
+    color: white;
+    border-color: #f4623a; }
 
 #mainC3 {
   background-color: #8c7d58; }

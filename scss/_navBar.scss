@@ -68,6 +68,8 @@
     .navbar-nav .nav-item .nav-link {
       color: rgba(255, 255, 255, 0.7);
       padding: 0 1rem;
+      text-shadow: map-get($map: $shadow, $key: sh3);
+      text-shadow: $textS1;
       &:hover {
         color: #fff;
       }
