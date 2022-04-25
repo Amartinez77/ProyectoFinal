@@ -156,7 +156,7 @@ p {
 .heroImage, .heroImage2, .heroImage3, .heroImage4, .heroImage5 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background-image: url("../images/indexHero.webp");
+  background-image: url("../images/index_hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -193,7 +193,7 @@ p {
   padding: 8rem 0; }
 
 .heroImage2 {
-  background-image: url("../images/historiaHero.webp"); }
+  background-image: url("../images/historia_hero.webp"); }
   .heroImage2 h1 {
     font-size: 2.2rem;
     line-height: 1.2;
@@ -224,7 +224,7 @@ p {
   padding: 8rem 0; }
 
 .heroImage3 {
-  background-image: url("../images/personajesCentro.jpg"); }
+  background-image: url("../images/personajes_centro.jpg"); }
   .heroImage3 h1 {
     font-size: 2.2rem;
     line-height: 1.2;

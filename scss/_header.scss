@@ -1,7 +1,7 @@
 .heroImage {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background-image: url("../images/indexHero.webp");
+  background-image: url("../images/index_hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -47,7 +47,7 @@
 
 .heroImage2 {
   @extend .heroImage;
-  background-image: url("../images/historiaHero.webp");
+  background-image: url("../images/historia_hero.webp");
   h1 {
     @include textZLC($textMd, 1.2, $bgNaranja);
   }
@@ -86,7 +86,7 @@
 
 .heroImage3 {
   @extend .heroImage;
-  background-image: url("../images/personajesCentro.jpg");
+  background-image: url("../images/personajes_centro.jpg");
 
   h1 {
     @include textZLC($textMd, 1.2, $bgNaranja);
