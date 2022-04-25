@@ -415,6 +415,9 @@ p {
 #mainC3 {
   background-color: #8c7d58; }
 
+#body404 {
+  background-color: darkkhaki; }
+
 #main404 {
   background-color: darkkhaki; }
   #main404 h1 {
@@ -426,17 +429,17 @@ p {
   #main404 h2 {
     font-size: 1rem; }
   #main404 img {
-    width: 100%;
+    width: 75%;
     height: auto;
     margin-top: 15px;
     margin-bottom: 10px; }
   #main404 .svgError {
-    width: 100%;
-    height: 100%; }
+    width: 55%;
+    height: auto; }
   #main404 a p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 2px; }
-  @media (min-width: 480px) {
+  @media (min-width: 430px) {
     #main404 img {
       width: 55%;
       height: auto; }
