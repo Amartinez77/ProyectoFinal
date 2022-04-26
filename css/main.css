@@ -72,117 +72,64 @@ p {
 .fade-in {
   animation: fadeIn 1s linear 1s infinite alternate both; }
 
-#mainNav {
+#mainNav, #nav404 {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background: #543533;
   background: linear-gradient(180deg, #543533 0%, #000000 80%);
   transition: background-color 0.2s ease;
   position: inherit; }
-  #mainNav .navbar-toggler {
+  #mainNav .navbar-toggler, #nav404 .navbar-toggler {
     background-color: azure; }
-    #mainNav .navbar-toggler:focus {
+    #mainNav .navbar-toggler:focus, #nav404 .navbar-toggler:focus {
       box-shadow: none; }
-  #mainNav .navbar-brand {
+  #mainNav .navbar-brand, #nav404 .navbar-brand {
     font-weight: 700;
     color: white; }
     @media (min-width: 279px) {
-      #mainNav .navbar-brand {
+      #mainNav .navbar-brand, #nav404 .navbar-brand {
         width: 120px; }
-        #mainNav .navbar-brand img {
+        #mainNav .navbar-brand img, #nav404 .navbar-brand img {
           width: 100%;
           height: 100%; } }
   @media (min-width: 279px) and (min-width: 428px) {
-    #mainNav .navbar-brand {
+    #mainNav .navbar-brand, #nav404 .navbar-brand {
       width: 280px; }
-      #mainNav .navbar-brand img {
+      #mainNav .navbar-brand img, #nav404 .navbar-brand img {
         width: 100%;
         height: 100%; } }
-  #mainNav .navbar-nav .nav-item .nav-link {
+  #mainNav .navbar-nav .nav-item .nav-link, #nav404 .navbar-nav .nav-item .nav-link {
     font-weight: 700;
     font-size: 0.9rem;
     padding: 0.75rem 0;
     color: white; }
-    #mainNav .navbar-nav .nav-item .nav-link:hover {
+    #mainNav .navbar-nav .nav-item .nav-link:hover, #nav404 .navbar-nav .nav-item .nav-link:hover {
       color: gray;
       transition: color 0.2s ease; }
-  #mainNav .fixed-top {
+  #mainNav .fixed-top, #nav404 .fixed-top {
     position: inherit; }
   @media (min-width: 992px) {
-    #mainNav {
+    #mainNav, #nav404 {
       box-shadow: none;
       background: none;
       background-color: transparent;
       position: absolute; }
-      #mainNav .navbar-brand {
+      #mainNav .navbar-brand, #nav404 .navbar-brand {
         color: rgba(255, 255, 255, 0.7); }
-        #mainNav .navbar-brand:hover {
+        #mainNav .navbar-brand:hover, #nav404 .navbar-brand:hover {
           color: #fff; }
-      #mainNav .navbar-nav .nav-item .nav-link {
+      #mainNav .navbar-nav .nav-item .nav-link, #nav404 .navbar-nav .nav-item .nav-link {
         color: rgba(255, 255, 255, 0.7);
         padding: 0 1rem;
         text-shadow: 1px 2px 4px rgba(255, 255, 255, 0.52);
         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
-        #mainNav .navbar-nav .nav-item .nav-link:hover {
+        #mainNav .navbar-nav .nav-item .nav-link:hover, #nav404 .navbar-nav .nav-item .nav-link:hover {
           color: #fff; }
-      #mainNav .navbar-nav .nav-item:last-child .nav-link {
-        padding-right: 0; }
-      #mainNav .text-dark {
-        color: #fff !important; } }
+      #mainNav .navbar-nav .nav-item:last-child .nav-link, #nav404 .navbar-nav .nav-item:last-child .nav-link {
+        padding-right: 0; } }
 
-#nav404 {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background: #543533;
-  background: linear-gradient(180deg, #543533 0%, #000000 80%);
-  transition: background-color 0.2s ease;
-  position: inherit; }
-  #nav404 .navbar-toggler {
-    background-color: azure; }
-    #nav404 .navbar-toggler:focus {
-      box-shadow: none; }
-  #nav404 .navbar-brand {
-    font-weight: 700;
-    color: white; }
-    @media (min-width: 279px) {
-      #nav404 .navbar-brand {
-        width: 120px; }
-        #nav404 .navbar-brand img {
-          width: 100%;
-          height: 100%; } }
-  @media (min-width: 279px) and (min-width: 428px) {
-    #nav404 .navbar-brand {
-      width: 280px; }
-      #nav404 .navbar-brand img {
-        width: 100%;
-        height: 100%; } }
-  #nav404 .navbar-nav .nav-item .nav-link {
-    font-weight: 700;
-    font-size: 0.9rem;
-    padding: 0.75rem 0;
-    color: white; }
-    #nav404 .navbar-nav .nav-item .nav-link:hover {
-      color: gray;
-      transition: color 0.2s ease; }
-  #nav404 .fixed-top {
-    position: inherit; }
-  @media (min-width: 992px) {
-    #nav404 {
-      box-shadow: none;
-      background: none;
-      background-color: currentColor;
-      position: initial; }
-      #nav404 .navbar-brand {
-        color: rgba(255, 255, 255, 0.7); }
-        #nav404 .navbar-brand:hover {
-          color: #fff; }
-      #nav404 .navbar-nav .nav-item .nav-link {
-        color: rgba(255, 255, 255, 0.7);
-        padding: 0 1rem; }
-        #nav404 .navbar-nav .nav-item .nav-link:hover {
-          color: #fff; }
-      #nav404 .navbar-nav .nav-item:last-child .nav-link {
-        padding-right: 0; }
-      #nav404 .text-dark {
-        color: #fff !important; } }
+@media (min-width: 992px) {
+  #nav404 {
+    background-color: currentColor; } }
 
 .heroImage, .heroImage2, .heroImage3, .heroImage4, .heroImage5 {
   padding-top: 10rem;
@@ -199,7 +146,6 @@ p {
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
   .heroImage p, .heroImage2 p, .heroImage3 p, .heroImage4 p, .heroImage5 p {
     font-size: textSm;
-    color: #f4623a;
     color: #fff; }
     .heroImage p mark, .heroImage2 p mark, .heroImage3 p mark, .heroImage4 p mark, .heroImage5 p mark {
       background-color: #f4623a;
@@ -219,133 +165,23 @@ p {
 
 .bgOrange {
   background-color: #dea057; }
+  .bgOrange h2 {
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
 
 .page-section {
   padding: 8rem 0; }
 
 .heroImage2 {
   background-image: url("../images/historia_hero.webp"); }
-  .heroImage2 h1 {
-    font-size: 2.2rem;
-    line-height: 1.2;
-    color: #f4623a; }
-  .heroImage2 p {
-    font-size: textSm;
-    color: #f4623a;
-    color: #fff; }
-    .heroImage2 p mark {
-      background-color: #f4623a;
-      opacity: 0.7;
-      color: #fff; }
-  @media (min-width: 992px) {
-    .heroImage2 {
-      height: 100vh;
-      min-height: 40rem;
-      padding-top: 4.5rem;
-      padding-bottom: 0; }
-      .heroImage2 h1 {
-        font-size: 4rem;
-        line-height: 1.2;
-        color: #f4623a; } }
-
-.bgOrange {
-  background-color: #dea057; }
-
-.page-section {
-  padding: 8rem 0; }
 
 .heroImage3 {
   background-image: url("../images/personajes_centro.jpg"); }
-  .heroImage3 h1 {
-    font-size: 2.2rem;
-    line-height: 1.2;
-    color: #f4623a; }
-  .heroImage3 p {
-    font-size: textSm;
-    color: #f4623a;
-    color: #fff; }
-    .heroImage3 p mark {
-      background-color: #f4623a;
-      opacity: 0.7;
-      color: #fff; }
-  @media (min-width: 992px) {
-    .heroImage3 {
-      height: 100vh;
-      min-height: 40rem;
-      padding-top: 4.5rem;
-      padding-bottom: 0; }
-      .heroImage3 h1 {
-        font-size: 4rem;
-        line-height: 1.2;
-        color: #f4623a; } }
-
-.bgOrange {
-  background-color: #dea057; }
-
-.page-section {
-  padding: 8rem 0; }
 
 .heroImage4 {
   background-image: url("../images/nathan_drake.jpg"); }
-  .heroImage4 h1 {
-    font-size: 2.2rem;
-    line-height: 1.2;
-    color: #f4623a; }
-  .heroImage4 p {
-    font-size: textSm;
-    color: #f4623a;
-    color: #fff; }
-    .heroImage4 p mark {
-      background-color: #f4623a;
-      opacity: 0.7;
-      color: #fff; }
-  @media (min-width: 992px) {
-    .heroImage4 {
-      height: 100vh;
-      min-height: 40rem;
-      padding-top: 4.5rem;
-      padding-bottom: 0; }
-      .heroImage4 h1 {
-        font-size: 4rem;
-        line-height: 1.2;
-        color: #f4623a; } }
-
-.bgOrange {
-  background-color: #dea057; }
-
-.page-section {
-  padding: 8rem 0; }
 
 .heroImage5 {
   background-image: url("../images/uncharted_colabora.webp"); }
-  .heroImage5 h1 {
-    font-size: 2.2rem;
-    line-height: 1.2;
-    color: #f4623a; }
-  .heroImage5 p {
-    font-size: textSm;
-    color: #f4623a;
-    color: #fff; }
-    .heroImage5 p mark {
-      background-color: #f4623a;
-      opacity: 0.7;
-      color: #fff; }
-  @media (min-width: 992px) {
-    .heroImage5 {
-      height: 100vh;
-      min-height: 40rem;
-      padding-top: 4.5rem;
-      padding-bottom: 0; }
-      .heroImage5 h1 {
-        font-size: 4rem;
-        line-height: 1.2;
-        color: #f4623a; } }
-
-.bgOrange {
-  background-color: #dea057; }
-
-.page-section {
-  padding: 8rem 0; }
 
 .fondo a:hover {
   opacity: 0.5;
@@ -359,18 +195,33 @@ p {
 #mainInd h3 {
   color: #f4623a; }
 
+#mainInd a {
+  color: #dea057; }
+  #mainInd a:hover {
+    color: #f4623a; }
+
 #mainInd p {
   font-size: 1.2rem; }
 
-#mainInd2 p, #mainP4 p, #mainC p {
+#mainInd2 p, #mainP4 p, #mainN p, #mainC p {
   font-size: 1.2rem; }
 
 #mainH p {
   font-size: 1.2rem; }
 
+#mainH2 .lineaOrange {
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  color: #f4623a;
+  border-top: 2px solid; }
+
 @media (min-width: 279px) {
   #mainH2 p {
-    font-size: 1.2rem; } }
+    font-size: 1rem; } }
+
+#mainH2 img {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
 
 @media (min-width: 279px) {
   #mainP div img {
@@ -381,12 +232,12 @@ p {
     align-items: center; }
     #mainP2 .card img, #mainP3 .card img {
       text-align: center; }
-  #mainP2 .card-body .linea, #mainP3 .card-body .linea {
+  #mainP2 .card-body .lineaOrange, #mainP3 .card-body .lineaOrange {
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 20px;
     color: #f4623a;
-    border-top: 2px solid;
-    width: 50%;
-    margin: auto;
-    opacity: 1; } }
+    border-top: 2px solid; } }
 
 #mainN2 img {
   width: -webkit-fill-available;
@@ -412,7 +263,11 @@ p {
   #mainC2 .btn-outline-primary:hover {
     background-color: #f4623a;
     color: white;
-    border-color: #f4623a; }
+    border-color: #f4623a;
+    box-shadow: none; }
+
+#mainC2 .btn-outline-primary:focus {
+  box-shadow: none; }
 
 #mainC3 {
   background-color: #8c7d58; }

@@ -11,8 +11,15 @@
     border-radius: map-get($circulo, circ2);
     box-shadow: map-get($map: $shadow, $key: "sh2");
   }
+
   h3 {
     color: $bgNaranja;
+  }
+  a {
+    color: $bgNaranja2;
+    &:hover {
+      color: $bgNaranja;
+    }
   }
   p {
     font-size: $textSm;
@@ -34,10 +41,16 @@
 }
 
 #mainH2 {
+  .lineaOrange {
+    @include lineaOrange(100%, 2px, 20px);
+  }
   @media (min-width: 279px) {
     p {
-      font-size: $textSm;
+      font-size: $textXsm;
     }
+  }
+  img {
+    box-shadow: map-get($map: $shadow, $key: "sh1");
   }
 }
 
@@ -61,12 +74,8 @@
       }
     }
     .card-body {
-      .linea {
-        color: $bgNaranja;
-        border-top: 2px solid;
-        width: 50%;
-        margin: auto;
-        opacity: 1;
+      .lineaOrange {
+        @include lineaOrange(100%, 2px, 20px);
       }
     }
   }
@@ -81,6 +90,10 @@
 }
 
 // main novedades.html
+
+#mainN {
+  @extend #mainInd2;
+}
 
 #mainN2 {
   img {
@@ -108,7 +121,11 @@
       background-color: $bgNaranja;
       color: white;
       border-color: $bgNaranja;
+      box-shadow: none;
     }
+  }
+  .btn-outline-primary:focus {
+    box-shadow: none;
   }
 }
 
@@ -123,7 +140,6 @@
 }
 
 #main404 {
-  //   height: 100%;
   background-color: darkkhaki;
 
   h1 {
